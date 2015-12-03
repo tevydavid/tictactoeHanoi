@@ -1,0 +1,63 @@
+body {
+  background: #F7F3EF;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: grey 3px 3px 6px;
+}
+
+.winner {
+  position: fixed;
+  top: 100px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 100px;
+  text-shadow: red 0px 0px 56px;
+}
+
+[won='X'] {
+  color: darkcyan;
+}
+
+[won='O'] {
+  color: darkgoldenrod;
+}
+
+.board {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.board li {
+  background: grey;
+  height: 100px;
+  width: 100px;
+  float: left;
+  outline: 5px solid black;
+  font-size: 80px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.square:hover {
+  background: wheat;
+}
+
+.board .clicked {
+  background: #F7F3EF;
+}
+
+#X {
+  text-shadow: darkcyan 3px 3px 6px;
+}
+
+#O {
+  text-shadow: darkgoldenrod 3px 3px 6px;
+}
